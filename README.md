@@ -265,3 +265,17 @@ Contributions from the community are welcome! If you have any ideas or suggestio
   journal      = {arXiv preprint arXiv:2206.00364}
 }
 ```
+
+
+# Install
+
+```
+make -f docker/Makefile build
+make -f docker/Makefile run
+
+cd the folder
+pip install -e .
+
+train
+python consistency_models_2/scripts/train.py
+```
